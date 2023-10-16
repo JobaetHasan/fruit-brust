@@ -278,18 +278,6 @@
 
           <!-- ****** -->
 
-
-
-
-
-
-
-
-
-
-
-
-
           <div class="hidden container mx-auto px-16 pt-12 lg:flex  bg-white w-4/5 justify-around rounded-xl shadow-xl  relative  -mt-40 h-[250px]">
 
 
@@ -323,23 +311,7 @@
 
     </header>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                
 
     <main class="container mx-auto">
 
@@ -349,38 +321,41 @@
 
 
 
-      <div class="flex justify-between py-40">
+      <div class="flex flex-col lg:flex-row  justify-between my-40 px-3">
 
 
         <div>
-          <h3>deal of the day</h3>
-          <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+          <h3 class="text-2xl lg:text-5xl text-center lg:text-left font-extrabold text-primary-black">deal of the day</h3>
+          <p class="text-sm lg:text-xl font-medium mt-6 text-center lg:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
 
+         <!-- countdown part -->
 
-
-        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+        <div class="grid grid-flow-col gap-5 text-center auto-cols-max mt-4">
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:40;"></span>
+            <span class="countdown text-2xl font-extrabold  lg:text-5xl">
+              <span style="--value:29;"></span>
             </span>
             days
           </div> 
+          <div class="text-3xl font-extrabold">:</div>
           
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
-              <span style="--value:10;"></span>
+            <span class="countdown text-2xl font-extrabold lg:text-5xl">
+              <span style="--value:15;"></span>
             </span>
             hours
           </div> 
+          <div class=" text-3xl font-extrabold">:</div>
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
+            <span class="countdown text-2xl font-extrabold lg:text-5xl">
               <span style="--value:24;"></span>
             </span>
             min
           </div> 
+          <div class="text-3xl font-extrabold">:</div>
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
+            <span class="countdown text-2xl font-extrabold lg:text-5xl">
               <span style="--value:34;"></span>
             </span>
             sec
